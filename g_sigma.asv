@@ -1,0 +1,4 @@
+function result = g_sigma(sigma)
+    x = 1 + 1/(4*sigma.^2);
+    result = sqrt(2*pi*sigma.^2) * exp(-x.^2);
+end
